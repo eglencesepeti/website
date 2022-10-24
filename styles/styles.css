@@ -1,0 +1,89 @@
+body {
+  font-family: monospace;
+  background-color: rgb(255, 159, 191);
+}
+
+navbar {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  padding-top: 30px;
+  margin: -8px;
+  background-color: rgb(255, 159, 191);
+  text-align: right;
+}
+
+navbar a {
+  padding-right: 50px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;  
+}
+
+navbar a:hover {
+  color: yellow;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;    
+}
+
+#welcome-section h1 {
+  font-size: 65px;
+}
+
+#welcome-section h2 {
+  font-size: 23px;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+#welcome-section p {
+  font-size: 18px;
+  margin: 10 20%;
+}
+
+#about-us {
+  margin: 50px calc((100% - 750px) / 2);
+  text-align: center;
+}
+
+#about-us h1 {
+  font-size: 30px;
+}
+
+.members {
+  width: 100%;
+  display: flex;
+}
+
+.member {
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+.member:hover {
+  background-color: rgb(241, 215, 23);
+}
+
+.member a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(255, 159, 191);
+}
+
+.member a:hover {
+  color: black;
+}
+
+.member img{
+  width: 200px;
+  height: 200px;
+}
